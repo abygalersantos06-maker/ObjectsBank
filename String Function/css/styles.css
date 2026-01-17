@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #850825;
+  color: #fbccbf;
+  margin: 0;
+}
+
+/* HEADINGS */
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0;
+  color: #fcba63;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0;
+}
+
+/* TEXT */
+p {
+  padding: 6px 20px;
+  margin: 0;
+}
+
+/* TABLE */
+table {
+  background-color: #850825;
+  margin: 10px 20px;
+  padding: 5px;
+  border: 1px solid #fbccbf;
+  border-spacing: 0;
+  width: calc(100% - 40px);
+}
+
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 8px 10px;
+  background-color: #fbccbf;
+  color: #850825;
+}
+
+td {
+  padding: 8px 10px;
+}
+
+/* LINKS */
+a {
+  color: #fbccbf;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcba63;
+}
+
+/* NAV */
+nav {
+  padding: 0.5em 20px;
+  background-color: #730720;
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+
+.button:hover {
+  background-color: #fcba63;
+  color: #850825;
+}
+
+/* FOOTER */
+footer {
+  background-color: #730720;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
